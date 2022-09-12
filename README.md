@@ -1,6 +1,6 @@
 # MovieAppMobile
 
-A web application that have a form where a user can make a question & can be saved to a list.
+A mobile application to see list of movies using API https://developers.themoviedb.org/4 for getting data and redux as state management.
 
 ## Get Started
 
