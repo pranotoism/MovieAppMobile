@@ -4,7 +4,7 @@ A mobile application to see list of movies using API https://developers.themovie
 
 ## Get Started
 
-## Before Run
+### Before Run
 - Create an api key in [themoviedb](https://www.themoviedb.org/)
 - Get api key and token
 - Clone this repository
