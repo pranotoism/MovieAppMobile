@@ -5,7 +5,7 @@ A mobile application to see list of movies using API https://developers.themovie
 ## Get Started
 
 ## Before Run
-- Create an api key in [themoviedb](http://themoviedb.org)
+- Create an api key in [themoviedb](https://www.themoviedb.org/)
 - Get api key and token
 - Clone this repository
 - Go to `/redux/movies.js`
@@ -17,7 +17,7 @@ A mobile application to see list of movies using API https://developers.themovie
 #### 1. Clone Repository
 
 ```bash
-git clone git@github.com:HZN-one/MovieAppMobile.git
+git clone git@github.com:pranotoism/MovieAppMobile.git
 ```
 
 #### 2. Install dependencies.
