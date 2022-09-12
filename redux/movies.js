@@ -7,12 +7,11 @@ import {
 } from '@reduxjs/toolkit';
 
 export const fetchMovies = createAsyncThunk('movies/fetchMovies', async (title="") => {
-  const response = await axios.get(`https://api.themoviedb.org/3/${title ? `search/` : "discover/"}movie?api_key=67447b21a008ed0cafe1d929a69b6c83${title ? `&query=${title}` : ""}`,
+  const response = await axios.get(`https://api.themoviedb.org/3/${title ? `search/` : "discover/"}movie?api_key=${API}${title ? `&query=${title}` : ""}`,
     {
       method: "GET",
       headers: {
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NzQ0N2IyMWEwMDhlZDBjYWZlMWQ5MjlhNjliNmM4MyIsInN1YiI6IjYzMWRkY2Q5YzRmNTUyMDA3ZjYxYTdkMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dmm_7By8AjYhrXkzr2YqAkTWjlrRoa6i7p1FyEM_qqg",
-        "Content-Type": "application/json",
+        "Authorization": "Bearer " + TOKEN,
         Accept: "application/json",
       },
     },
